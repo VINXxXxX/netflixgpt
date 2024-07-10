@@ -11,8 +11,6 @@ const VideoBackground = ({ movieId }) => {
         className="absolute top-1/2 left-1/2 w-full h-full object-cover transform -translate-x-1/2 -translate-y-1/2"
         src={"https://www.youtube.com/embed/" + trailerVideo?.key + "?&autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=" + trailerVideo?.key}
         title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
       ></iframe>
     </div>
   );

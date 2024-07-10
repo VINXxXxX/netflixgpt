@@ -1,9 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* MovieList.css */
 .hide-scroll-bar::-webkit-scrollbar {
     display: none;
   }
-   
+  
